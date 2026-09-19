@@ -23,9 +23,9 @@
 	};
 
 	const githubLinks = {
-		app: 'https://github.com/QwIT-Development/firka',
-		extension: 'https://github.com/QwIT-Development/firka-extension',
-		legacy: 'https://github.com/QwIT-Development/app-legacy'
+		app: 'https://github.com/e-krata/ellenorzo',
+		extension: 'https://github.com/e-krata/vonalzo',
+		legacy: 'https://github.com/e-krata/naplo'
 	};
 
 	const staticLinks = {
@@ -71,7 +71,7 @@
 		</p>
 	</div>
 	<div class="title">
-		<h2 class="font_web_h2">Töltsd le a Firka Naplót</h2>
+		<h2 class="font_web_h2">Töltsd le a KRÁTÁS Firka Naplót</h2>
 		<p class="font_body_16px_regular">
 			A mobil app elérhető almás és robotos telefonokon is, és a kedvenc böngésződbe pedig
 			letöltheted a bővítményt.
@@ -122,14 +122,14 @@
 						type="small_secondary"
 						icon="/apk.svg"
 						href={selectedAppLinks.arm64}
-						disabled={!legacy} ></Buttons>
+						disabled={false} ></Buttons>
 					<Buttons
 						id="armeabi"
 						label="armeabi.apk"
 						type="small_secondary"
 						icon="/apk.svg"
 						href={selectedAppLinks.armeabi}
-						disabled={!legacy} ></Buttons>
+						disabled={false} ></Buttons>
 				</div>
 			</div>
 			<div class="card-section">

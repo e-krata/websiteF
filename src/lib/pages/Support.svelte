@@ -5,12 +5,12 @@
 		{
 			question: 'Nem tudok bejelentkezni az alkalmazásba.',
 			answer:
-				'Győződj meg róla, hogy a KRÉTA felhasználóneved és jelszavad helyes, és az iskolád neve pontosan szerepel a listában. Ha a probléma fennáll, próbálj meg kijelentkezni és újra bejelentkezni.'
+				'Győződj meg róla, hogy a KRÁTA felhasználóneved és jelszavad helyes, és az iskolád neve pontosan szerepel a listában. Ha a probléma fennáll, próbálj meg kijelentkezni és újra bejelentkezni.'
 		},
 		{
 			question: 'Hiányoznak vagy hibásak a jegyeim.',
 			answer:
-				'A Firka a KRÉTA rendszerből szinkronizálja az adatokat. Ha hiányos adatokat látsz, ellenőrizd a KRÉTA webes felületen is. Ha ott helyes, próbálj meg frissíteni az alkalmazásban (húzd le az oldalt).'
+				'A Firka a KRÁTA rendszerből szinkronizálja az adatokat. Ha hiányos adatokat látsz, ellenőrizd a KRÁTA webes felületen is. Ha ott helyes, próbálj meg frissíteni az alkalmazásban (húzd le az oldalt).'
 		},
 		{
 			question: 'Az alkalmazás összeomlik vagy hibát jelez.',
@@ -20,7 +20,7 @@
 		{
 			question: 'Hogyan lehet törölni a fiókomat?',
 			answer:
-				'A Firka nem tárol fiókadatokat a saját szerverein — közvetlenül a KRÉTA rendszeren keresztül működik. A Firka alkalmazás törlésével minden helyi adat eltávolításra kerül.'
+				'A Firka nem tárol fiókadatokat a saját szerverein — közvetlenül a KRÁTA rendszeren keresztül működik. A Firka alkalmazás törlésével minden helyi adat eltávolításra kerül.'
 		},
 		{
 			question: 'Melyik eszközökön érhető el a Firka?',
@@ -54,7 +54,7 @@
 		</a>
 
 		<a
-			href="https://discord.gg/GGEUTJj5P7"
+			href="https://sulinet.site.je/kratadiscord"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="card tiny-shadow"
@@ -71,7 +71,7 @@
 		</a>
 
 		<a
-			href="https://github.com/QwIT-Development"
+			href="https://github.com/e-krata"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="card tiny-shadow"

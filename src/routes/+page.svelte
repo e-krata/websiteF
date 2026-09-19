@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Firka</title>
+	<title>FirKRÁTA</title>
 </svelte:head>
 
 <script lang="ts">

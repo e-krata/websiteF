@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Firka – Támogatás</title>
+	<title>eFolio – Támogatás</title>
 </svelte:head>
 
 <script lang="ts">

@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Firka</title>
+	<title>eFolio</title>
 </svelte:head>
 
 <script lang="ts">
@@ -9,3 +9,11 @@
 <main>
     <Privacy />
 </main>
+
+<style>
+	main {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+</style>

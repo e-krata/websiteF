@@ -22,7 +22,7 @@
 </script>
 
 {#if !disabled}
-	<a {href} {id} class="button {typeClass} tiny-shadow" {...$$restProps}>
+	<a {href} {id} class="button {typeClass}" {...$$restProps}>
 		<slot>
 			{#if icon}
 				{#if icon.startsWith('ri:')}
@@ -30,7 +30,7 @@
 						class={formatIconClass(icon)}
 						aria-label={label}
 						role="img"
-						style="width: 16px; height: 16px;"
+						style="width: 16px; height: 16px; display: inline-flex; align-items: center; justify-content: center; font-size: 16px; line-height: 1;"
 					></span>
 				{:else}
 					<span
@@ -43,7 +43,7 @@
 		</slot>
 	</a>
 {:else}
-	<div class="button {typeClass} tiny-shadow disabled" {...$$restProps}>
+	<div class="button {typeClass} disabled" {...$$restProps}>
 		<slot>
 			{#if icon}
 				{#if icon.startsWith('ri:')}
@@ -51,7 +51,7 @@
 						class={formatIconClass(icon)}
 						aria-label={label}
 						role="img"
-						style="width: 16px; height: 16px;"
+						style="width: 16px; height: 16px; display: inline-flex; align-items: center; justify-content: center; font-size: 16px; line-height: 1;"
 					></span>
 				{:else}
 					<span
@@ -66,41 +66,52 @@
 {/if}
 
 <style>
+	/* M3 Button base */
 	.button {
 		display: inline-flex;
-		height: 34px;
-		padding: 12px 14px 12px 12px;
+		height: 40px;
+		padding: 0 20px 0 16px;
 		justify-content: center;
 		align-items: center;
-		gap: 6px;
+		gap: 8px;
 		flex-shrink: 0;
-		border-radius: 22px;
+		border-radius: var(--shape-full, 100px);
 		text-decoration: none;
 		transition:
-			background 0.3s ease,
-			color 0.3s ease;
+			background 0.2s ease,
+			color 0.2s ease,
+			box-shadow 0.2s ease;
+		white-space: nowrap;
 	}
+
 	.button span {
 		width: 16px;
 		height: 16px;
 	}
 
+	/* Filled Tonal — secondary action (M3 "filled tonal button") */
 	.button-small_secondary {
-		background: var(--button_secondaryfill);
-		color: var(--text_secondary);
+		background: var(--md-surface-container-highest, var(--button_secondaryfill));
+		color: var(--md-on-surface-variant, var(--text_secondary));
+		box-shadow: none;
 	}
 	.button-small_secondary:hover {
-		background:
-			linear-gradient(0deg, var(--accent_15) 0%, var(--accent_15) 100%), var(--button_secondaryfill);
-		color: var(--text_primary);
+		background: var(--md-secondary-container, var(--button_secondaryfill));
+		color: var(--md-on-secondary-container, var(--text_primary));
+		box-shadow: var(--elevation-1);
 	}
 
+	/* Filled — primary action (M3 "filled button") */
 	.button-small_primary {
-		background: var(--accent_accent);
-		color: var(--text_primary_button);
+		background: var(--md-primary, var(--accent_accent));
+		color: var(--md-on-primary, var(--text_primary_button));
+		box-shadow: none;
 	}
 	.button-small_primary:hover {
-		background: var(--button_primaryfill);
+		background: var(--md-primary, var(--accent_accent));
+		color: var(--md-on-primary, var(--text_primary_button));
+		box-shadow: var(--elevation-2);
+		filter: brightness(1.08);
 	}
 
 	.custom-icon-svg {
@@ -116,10 +127,10 @@
 	}
 
 	.disabled {
-		opacity: 0.5;
+		opacity: 0.38;
 		pointer-events: none;
 		cursor: not-allowed;
-		background: var(--button_secondaryfill);
-		color: var(--text_secondary);
+		background: var(--md-surface-container-highest, var(--button_secondaryfill));
+		color: var(--md-on-surface, var(--text_secondary));
 	}
 </style>

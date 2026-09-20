@@ -39,7 +39,7 @@
 			itemClass: 'soon',
 			sections: [
 				{
-					title: Design,
+					title: 'Design',
 					items: [
 						'Új UI'
 					]
@@ -53,7 +53,7 @@
 			itemClass: 'later',
 			sections: [
 				{
-					title: Design,
+					title: 'Design',
 					items: [
 						'Új Animációk',
 						'Új képek a login oldalon',

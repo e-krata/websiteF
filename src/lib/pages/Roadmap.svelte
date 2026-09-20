@@ -13,19 +13,19 @@
 			itemClass: 'done',
 			sections: [
 				{
-					title: 'ALAP',
+					title: 'Design',
 					items: [
 						'Material you design'
 					]
 				},
 				{
-					title: 'ALAP',
+					title: 'API',
 					items: [
-						'További személyes adatok'
+						'KRÁTA API'
 					]
 				},
 				{
-					title: 'ALAP',
+					title: 'null',
 					items: [
 						'Hamarosan'
 					]
@@ -39,9 +39,9 @@
 			itemClass: 'soon',
 			sections: [
 				{
-					title: null,
+					title: Design,
 					items: [
-						'Dashboard szerű kezdőlap'
+						'Új UI'
 					]
 				}
 			]
@@ -53,9 +53,11 @@
 			itemClass: 'later',
 			sections: [
 				{
-					title: null,
+					title: Design,
 					items: [
-						'Hamarosan'
+						'Új Animációk',
+						'Új képek a login oldalon',
+						'Téma API'
 					]
 				}
 			]

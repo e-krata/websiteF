@@ -13,7 +13,7 @@
 
 	const staticLinks = {
 		chromestore: 'https://chromewebstore.google.com/detail/firxa/emafoaifbfppcccgfmpcoheonhjnpldj',
-		firefox: 'https://addons.mozilla.org/hu/firefox/addon/firxa/'
+		firefox: 'https://addons.mozilla.org/hu/firefox/addon/krataplusz/'
 	};
 
 	onMount(async () => {
@@ -99,6 +99,7 @@
 						type="small_secondary"
 						icon="ri:chrome-fill"
 						href={staticLinks.chromestore}
+						disabled={true}
 					></Buttons>
 				</div>
 			</div>
@@ -110,14 +111,14 @@
 						type="small_secondary"
 						icon="ri:firefox-browser-fill"
 						href={staticLinks.firefox}
-						disabled={true}
+						disabled={false}
 					></Buttons>
 				</div>
 			</div>
 			<div class="card-section">
 				<p class="font_header_14px label">Forráskód</p>
 				<div class="section-buttons">
-					<Buttons label="GitHub" href="https://github.com/Zan1456/folio-extension" icon="ri:github-fill"></Buttons>
+					<Buttons label="GitHub" href="https://github.com/e-krata/krataplusz" icon="ri:github-fill"></Buttons>
 				</div>
 			</div>
 		</div>

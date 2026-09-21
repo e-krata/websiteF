@@ -6,26 +6,25 @@
 		{
 			icon: 'ri:terminal-box-line',
 			title: 'Vonalzó+Desktop',
-			author: 'CsPS',
+			author: 'eKráta',
 			description: 'Windowsos gépekre telepíthető Napló program tanároknak.',
 			url: 'https://github.com/e-krata/vdesktop',
 			repo: 'e-krata/vdesktop'
 		},
 		{
-			icon: 'ri:terminal-line',
-			title: '--',
-			author: '---',
-			description: '---------------',
-			url: '----',
-			repo: '--------'
+			icon: 'ri:quill-pen-line',
+			title: 'reFilc',
+			author: 'eKráta',
+			description: 'Az eFolio utódja. Az eFolio-t megbízhatóbb használni, de a reFilc mindig fejlesztve lesz.',
+			url: 'https://krata.vercel.app'
 		},
 		{
 			icon: 'ri:quill-pen-line',
-			title: 'eFirKRÁTA',
-			author: 'eKráta',
-			description: 'Az eFolio elődje.',
-			url: 'https://github.com/e-krata/ellenorzo',
-			repo: 'e-krata/ellenorzo'
+			title: 'FilcKRÁTA',
+			author: 'puspus-dev',
+			description: 'Az eFolio és reFilcKRÁTA elődje.',
+			url: 'https://github.com/e-krata/naplo',
+			repo: 'e-krata/naplo'
 		},
 		{
 			icon: 'ri:computer-line',

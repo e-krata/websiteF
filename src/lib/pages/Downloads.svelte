@@ -8,7 +8,8 @@
 
 	$: appDownloadLinks = {
 		arm64: `https://github.com/e-krata/ellenorzoplusz/releases/download/${appVersion}/ekrata-ellenorzoplusz-release.apk`,
-		armeabi: `https://github.com/e-krata/ellenorzoplusz/releases/download/${appVersion}/ekrata-ellenorzoplusz-release.apk`
+		armeabi: `https://github.com/e-krata/ellenorzoplusz/releases/download/${appVersion}/ekrata-ellenorzoplusz-release.apk`,
+        gplay: `https://play.google.com/store/apps/details?id=hu.ekrata.ellenorzoplusz&hl=hu-HU&ah=P0kFfppj9TjTIcMldjwdCtGwx5I`
 	};
 
 	const staticLinks = {
@@ -52,7 +53,8 @@
 						label="Google Play"
 						type="small_secondary"
 						icon="ri:google-play-fill"
-						disabled={true}
+						disabled={false}
+                        href={appDownloadLinks.gplay}
 					></Buttons>
 				</div>
 				<div class="section-buttons">
